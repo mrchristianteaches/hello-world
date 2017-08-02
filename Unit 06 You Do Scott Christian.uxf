@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>770</x>
+      <y>290</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Note..
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>50</y>
+      <w>250</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>StockTransaction
+--
+-stockSym : string
+-stockNam : string
+-stockNum : num
+-stockPri : num
+--
++setStockSym(symbol : string) : void
++setStockNam(name : string) : void
++setStockNum(number : num) : void
++setStockPri(price : num) : void
++displayValues() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
